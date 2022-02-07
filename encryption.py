@@ -1,5 +1,7 @@
+from cryptography.fernet import Fernet
+
+
 def encrypt(filename):
-    from cryptography.fernet import Fernet
 
     key = Fernet.generate_key()
 
