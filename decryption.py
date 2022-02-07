@@ -1,5 +1,7 @@
+from cryptography.fernet import Fernet
+
+
 def decrypt(filename):
-    from cryptography.fernet import Fernet
 
     with open("filekey.key", "rb") as filekey:
         key = filekey.read()
