@@ -1,7 +1,9 @@
-def generate_password():
-    import random
-    import string
+import random
+import string
 
+
+def generate_password():
+    
     account = input("Enter the account name: ")
     number = int(input("Number of characters in password? "))
 
